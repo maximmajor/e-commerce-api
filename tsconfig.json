@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "include": ["e-commerce-api/src/**/*.ts", "e-commerce-api/src/__tests__"],
+  "exclude": ["node_modules", "dist"]
+}
